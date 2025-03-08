@@ -1,60 +1,93 @@
-# vite-tinybase-react
+<h1 align="center">
+  Vite Template React
+</h1>
 
-This is a [Vite](https://vitejs.dev/) template for a simple
-[TinyBase](https://tinybase.org/) app, using React, and also demonstrating the
-TinyBase ui-react-dom module UI components.
+<p align="center">
+  <a href="https://github.com/SafdarJamal/vite-template-react/releases">
+    <img src="https://img.shields.io/github/v/release/SafdarJamal/vite-template-react" alt="GitHub Release (latest by date)" />
+  </a>
+  <a href="https://github.com/SafdarJamal/vite-template-react/blob/main/LICENSE">
+    <img src="https://img.shields.io/github/license/SafdarJamal/vite-template-react" alt="License" />
+  </a>
+</p>
 
-<img width="847" alt="image" src="https://github.com/user-attachments/assets/614cd4f5-4ef8-46c2-8a2a-8df07ee59be7">
+<p align="center">
+    A <a href="https://vitejs.dev">Vite</a> + <a href="https://react.dev">React</a> starter template.
+</p>
 
-## Instructions
+![Vite Template React](https://github.com/SafdarJamal/vite-template-react/assets/48409548/4b1eb99e-01b8-4752-91c0-76930e7948c1)
 
-1. Make a copy of this template into a new directory:
+## Folder Structure
 
-```sh
-npx tiged tinyplex/vite-tinybase-react my-tinybase-app
+No configuration or complicated folder structures, just the files you need to build your app:
+
+```
+vite-template-react
+├── node_modules
+├── public
+│   ├── favicon.svg
+│   └── robots.txt
+└── src
+    ├── App.css
+    ├── App.jsx
+    ├── App.test.jsx
+    ├── index.css
+    ├── index.jsx
+    └── logo.svg
+    └── setupTests.js
+├── .gitignore
+├── index.html
+├── package.json
+├── README.md
+├── vite.config.js
 ```
 
-2. Go into the directory:
+## Development
 
-```sh
-cd my-tinybase-app
+To get a local copy of the code, clone it using git:
+
+```
+git clone https://github.com/SafdarJamal/vite-template-react.git
+cd vite-template-react
 ```
 
-3. Install the dependencies:
+Make it your own:
 
-```sh
-npm install
+```
+rm -rf .git && git init && npm init
+git add .
+git commit -m "Initial commit"
 ```
 
-4. Run the application:
+Install dependencies:
 
-```sh
-npm run dev
+```
+npm i
 ```
 
-5. Go the URL shown and enjoy!
+Now, you can start a local web server by running:
 
-## Other templates
+```
+npm start
+```
 
-There are eleven templates for TinyBase, of which this is one:
+And then open http://localhost:3000 to view it in the browser.
 
-|     | Template                                                                                                             | Language   | React | Plus                   |
-| --- | -------------------------------------------------------------------------------------------------------------------- | ---------- | ----- | ---------------------- |
-|     | [vite-tinybase](https://github.com/tinyplex/vite-tinybase)                                                           | JavaScript | No    |                        |
-|     | [vite-tinybase-ts](https://github.com/tinyplex/vite-tinybase-ts)                                                     | TypeScript | No    |                        |
-| 👉  | [vite-tinybase-react](https://github.com/tinyplex/vite-tinybase-react)                                               | JavaScript | Yes   |                        |
-|     | [vite-tinybase-ts-react](https://github.com/tinyplex/vite-tinybase-ts-react)                                         | TypeScript | Yes   |                        |
-|     | [vite-tinybase-ts-react-sync](https://github.com/tinyplex/vite-tinybase-ts-react-sync)                               | TypeScript | Yes   | Synchronization        |
-|     | [vite-tinybase-ts-react-sync-durable-object](https://github.com/tinyplex/vite-tinybase-ts-react-sync-durable-object) | TypeScript | Yes   | Sync & Durable Objects |
-|     | [vite-tinybase-ts-react-pglite](https://github.com/tinyplex/vite-tinybase-ts-react-pglite)                           | TypeScript | Yes   | PGlite                 |
-|     | [vite-tinybase-ts-react-crsqlite](https://github.com/tinyplex/vite-tinybase-ts-react-crsqlite)                       | TypeScript | Yes   | CR-SQLite              |
-|     | [tinybase-ts-react-partykit](https://github.com/tinyplex/tinybase-ts-react-partykit)                                 | TypeScript | Yes   | PartyKit               |
-|     | [tinybase-ts-react-electricsql](https://github.com/tinyplex/tinybase-ts-react-electricsql)                           | TypeScript | Yes   | ElectricSQL            |
-|     | [expo/examples/with-tinybase](https://github.com/expo/examples/tree/master/with-tinybase)                            | JavaScript | Yes   | React Native & Expo    |
+#### Available Scripts
+
+In this project, you can run the following scripts:
+
+| Script        | Description                                             |
+| ------------- | ------------------------------------------------------- |
+| npm start     | Runs the app in the development mode.                   |
+| npm test      | Launches the test runner in the interactive watch mode. |
+| npm run build | Builds the app for production to the `dist` folder.     |
+| npm run serve | Serves the production build from the `dist` folder.     |
+
+## Credits
+
+Vite Template React is built and maintained by [Safdar Jamal](https://safdarjamal.github.io).
 
 ## License
 
-This template has no license, and so you can use it however you want!
-[TinyBase](https://github.com/tinyplex/tinybase/blob/main/LICENSE) and
-[Vite](https://github.com/vitejs/vite/blob/main/LICENSE) themselves are both MIT
-licensed.
+This project is licensed under the terms of the [MIT license](https://github.com/SafdarJamal/vite-template-react/blob/main/LICENSE).
