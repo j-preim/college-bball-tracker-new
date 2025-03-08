@@ -1,38 +1,93 @@
-# sv
+<h1 align="center">
+  Vite Template React
+</h1>
 
-Everything you need to build a Svelte project, powered by [`sv`](https://github.com/sveltejs/cli).
+<p align="center">
+  <a href="https://github.com/SafdarJamal/vite-template-react/releases">
+    <img src="https://img.shields.io/github/v/release/SafdarJamal/vite-template-react" alt="GitHub Release (latest by date)" />
+  </a>
+  <a href="https://github.com/SafdarJamal/vite-template-react/blob/main/LICENSE">
+    <img src="https://img.shields.io/github/license/SafdarJamal/vite-template-react" alt="License" />
+  </a>
+</p>
 
-## Creating a project
+<p align="center">
+    A <a href="https://vitejs.dev">Vite</a> + <a href="https://react.dev">React</a> starter template.
+</p>
 
-If you're seeing this, you've probably already done this step. Congrats!
+![Vite Template React](https://github.com/SafdarJamal/vite-template-react/assets/48409548/4b1eb99e-01b8-4752-91c0-76930e7948c1)
 
-```bash
-# create a new project in the current directory
-npx sv create
+## Folder Structure
 
-# create a new project in my-app
-npx sv create my-app
+No configuration or complicated folder structures, just the files you need to build your app:
+
+```
+vite-template-react
+├── node_modules
+├── public
+│   ├── favicon.svg
+│   └── robots.txt
+└── src
+    ├── App.css
+    ├── App.jsx
+    ├── App.test.jsx
+    ├── index.css
+    ├── index.jsx
+    └── logo.svg
+    └── setupTests.js
+├── .gitignore
+├── index.html
+├── package.json
+├── README.md
+├── vite.config.js
 ```
 
-## Developing
+## Development
 
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+To get a local copy of the code, clone it using git:
 
-```bash
-npm run dev
-
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
+```
+git clone https://github.com/SafdarJamal/vite-template-react.git
+cd vite-template-react
 ```
 
-## Building
+Make it your own:
 
-To create a production version of your app:
-
-```bash
-npm run build
+```
+rm -rf .git && git init && npm init
+git add .
+git commit -m "Initial commit"
 ```
 
-You can preview the production build with `npm run preview`.
+Install dependencies:
 
-> To deploy your app, you may need to install an [adapter](https://svelte.dev/docs/kit/adapters) for your target environment.
+```
+npm i
+```
+
+Now, you can start a local web server by running:
+
+```
+npm start
+```
+
+And then open http://localhost:3000 to view it in the browser.
+
+#### Available Scripts
+
+In this project, you can run the following scripts:
+
+| Script        | Description                                             |
+| ------------- | ------------------------------------------------------- |
+| npm start     | Runs the app in the development mode.                   |
+| npm test      | Launches the test runner in the interactive watch mode. |
+| npm run build | Builds the app for production to the `dist` folder.     |
+| npm run serve | Serves the production build from the `dist` folder.     |
+
+## Credits
+
+Vite Template React is built and maintained by [Safdar Jamal](https://safdarjamal.github.io).
+
+## License
+
+This project is licensed under the terms of the [MIT license](https://github.com/SafdarJamal/vite-template-react/blob/main/LICENSE).
